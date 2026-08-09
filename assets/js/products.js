@@ -66,7 +66,7 @@ window.ARIHA_PRODUCTS = [
     categoryLabel:"دفتر و کاغذ",
     price:265000,
     badge:"جدید",
-    href:"products/notebook-a5.html",
+    href:"products/weekly-planner.html",
     image:"https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=900&q=82"
   },
   {
@@ -76,7 +76,7 @@ window.ARIHA_PRODUCTS = [
     categoryLabel:"طراحی و رنگ",
     price:179000,
     badge:"",
-    href:"products/colored-pencils.html",
+    href:"products/graphite-pencil.html",
     image:"https://images.unsplash.com/photo-1541535193313-a132e126fb1c?auto=format&fit=crop&w=900&q=82"
   }
 ];
