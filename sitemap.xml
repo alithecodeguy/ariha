@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://example.com/</loc><priority>1.0</priority></url>
+  <url><loc>https://example.com/products.html</loc><priority>0.9</priority></url>
+  <url><loc>https://example.com/about.html</loc><priority>0.6</priority></url>
+  <url><loc>https://example.com/contact.html</loc><priority>0.6</priority></url>
+  <url><loc>https://example.com/products/notebook-a5.html</loc><priority>0.8</priority></url>
+  <url><loc>https://example.com/products/gel-pen.html</loc><priority>0.8</priority></url>
+  <url><loc>https://example.com/products/colored-pencils.html</loc><priority>0.8</priority></url>
+  <url><loc>https://example.com/products/sketchbook.html</loc><priority>0.8</priority></url>
+  <url><loc>https://example.com/products/highlighter-set.html</loc><priority>0.8</priority></url>
+  <url><loc>https://example.com/products/pencil-case.html</loc><priority>0.8</priority></url>
+  <url><loc>https://example.com/products/weekly-planner.html</loc><priority>0.8</priority></url>
+  <url><loc>https://example.com/products/graphite-pencil.html</loc><priority>0.8</priority></url>
+</urlset>
