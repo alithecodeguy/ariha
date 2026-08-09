@@ -36,7 +36,6 @@
         <a class="product-media" href="${product.href}" aria-label="مشاهده ${product.title}">
           <img src="${product.image}" alt="${product.title}" width="700" height="800" loading="lazy">
           ${product.badge ? `<span class="product-badge">${product.badge}</span>` : ''}
-          <button class="quick-add" type="button" data-add-to-cart="${product.id}" aria-label="افزودن ${product.title} به سبد">+</button>
         </a>
         <div class="product-info">
           <span class="product-category">${product.categoryLabel}</span>
@@ -109,7 +108,6 @@
     const trigger = event.target.closest('[data-add-to-cart]');
     if (!trigger) return;
     event.preventDefault();
-    event.stopPropagation();
     addToCart(trigger.dataset.addToCart);
   });
 
