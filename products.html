@@ -3,75 +3,47 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>محصولات | فروشگاه لوازم‌التحریر آریها</title>
-  <meta name="description" content="محصولات لوازم‌التحریر آریها؛ دفتر، نوشت‌افزار، ابزار طراحی و اکسسوری‌های ساده و کاربردی برای مدرسه، دانشگاه و میز کار.">
+  <title>محصولات | بازار لوازم‌التحریر آریها</title>
+  <meta name="description" content="جستجو و مقایسه محصولات لوازم‌التحریر آریها؛ دفتر، نوشت‌افزار، ابزار طراحی و اکسسوری میز.">
   <meta name="robots" content="index,follow,max-image-preview:large">
-  <meta name="theme-color" content="#f7f4ee">
+  <meta name="theme-color" content="#ff6a00">
   <link rel="canonical" href="https://example.com/products.html">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/styles.css">
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 </head>
 <body>
   <a class="skip-link" href="#main">رفتن به محتوای اصلی</a>
   <header class="site-header">
+    <div class="header-topline"><div class="container header-topline-inner"><div>ارسال به سراسر ایران · اطلاعات فعلاً نمونه هستند</div><div class="header-topline-links"><a href="contact.html">مرکز پشتیبانی</a><a href="about.html">درباره آریها</a></div></div></div>
     <div class="container header-inner">
       <a class="brand" href="index.html"><span class="brand-mark">آ</span><span>آریها</span></a>
-      <button class="menu-toggle icon-button" type="button" aria-label="باز کردن منو" aria-expanded="false" data-menu-toggle><span></span><span></span></button>
-      <nav class="main-nav" aria-label="منوی اصلی" data-menu>
-        <a href="index.html">خانه</a><a class="is-active" href="products.html">محصولات</a><a href="about.html">درباره ما</a><a href="contact.html">تماس</a>
-      </nav>
-      <a class="cart-button" href="products.html" aria-label="سبد نمونه"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.1 9.4a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.6L20 8H7M10 20a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm8 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"/></svg><span class="cart-count" data-cart-count>۰</span></a>
+      <form class="market-search" role="search" data-global-search><label class="sr-only" for="global-search">جستجو</label><input id="global-search" type="search" placeholder="جستجو در محصولات آریها"><button type="submit" aria-label="جستجو">⌕</button></form>
+      <button class="menu-toggle" type="button" aria-label="باز کردن منو" aria-expanded="false" data-menu-toggle><span></span><span></span></button>
+      <nav class="main-nav" aria-label="منوی اصلی" data-menu><a href="index.html">خانه</a><a class="is-active" href="products.html">محصولات</a><a href="about.html">درباره ما</a><a href="contact.html">تماس</a></nav>
+      <a class="cart-button" href="products.html"><span>سبد</span><span class="cart-count" data-cart-count>۰</span></a>
     </div>
+    <div class="market-subnav"><div class="container market-subnav-inner"><a class="all-categories" href="products.html"><span>☰</span> همه دسته‌بندی‌ها</a><a href="products.html?category=notebook">دفتر و کاغذ</a><a href="products.html?category=writing">نوشت‌افزار</a><a href="products.html?category=art">طراحی و رنگ</a><a href="products.html?category=accessory">اکسسوری میز</a></div></div>
   </header>
 
   <main id="main">
-    <section class="page-hero">
-      <div class="container page-hero-inner reveal">
-        <span class="eyebrow">فروشگاه آریها</span>
-        <h1>چیزهای خوب برای روی میز.</h1>
-        <p>محصولات را ساده نگه داشته‌ایم؛ چیزهایی که واقعاً به کار می‌آیند و استفاده روزمره از آن‌ها حس خوبی دارد.</p>
-      </div>
-    </section>
+    <section class="page-hero"><div class="container page-hero-inner"><span class="eyebrow">کاتالوگ آریها</span><h1>محصول مناسب را سریع پیدا کن.</h1><p>جستجو کن، دسته‌بندی را تغییر بده و جزئیات هر محصول را در صفحه اختصاصی خودش ببین. قیمت‌ها و فروشنده‌ها در این نسخه نمونه هستند.</p></div></section>
 
-    <div class="shop-toolbar">
-      <div class="container toolbar-inner">
-        <div class="search-box">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg>
-          <label class="sr-only" for="product-search">جستجوی محصول</label>
-          <input id="product-search" type="search" placeholder="جستجو در محصولات..." data-product-search>
-        </div>
-        <div class="filter-row" aria-label="فیلتر محصولات">
-          <button class="filter-chip is-active" type="button" data-filter="all">همه</button>
-          <button class="filter-chip" type="button" data-filter="notebook">دفتر و کاغذ</button>
-          <button class="filter-chip" type="button" data-filter="writing">نوشت‌افزار</button>
-          <button class="filter-chip" type="button" data-filter="art">طراحی و رنگ</button>
-          <button class="filter-chip" type="button" data-filter="accessory">اکسسوری میز</button>
-        </div>
-      </div>
-    </div>
+    <div class="shop-toolbar"><div class="container toolbar-inner">
+      <div class="search-box"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg><label class="sr-only" for="product-search">جستجوی محصول</label><input id="product-search" type="search" placeholder="مثلاً دفتر، پلنر، مداد رنگی..." data-product-search></div>
+      <div class="filter-row" aria-label="فیلتر محصولات"><button class="filter-chip is-active" type="button" data-filter="all">همه محصولات</button><button class="filter-chip" type="button" data-filter="notebook">دفتر و کاغذ</button><button class="filter-chip" type="button" data-filter="writing">نوشت‌افزار</button><button class="filter-chip" type="button" data-filter="art">طراحی و رنگ</button><button class="filter-chip" type="button" data-filter="accessory">اکسسوری میز</button></div>
+    </div></div>
 
-    <section class="section-sm" aria-label="لیست محصولات">
-      <div class="container">
-        <div class="results-line" data-results-count>۰ محصول</div>
-        <div class="product-grid" data-products-grid></div>
-      </div>
-    </section>
+    <section class="section-sm" aria-label="لیست محصولات"><div class="container market-box"><div class="market-title-row"><h2>نتایج محصولات</h2><span class="results-line" data-results-count>۰ محصول</span></div><div class="product-grid" data-products-grid></div></div></section>
+
+    <section class="market-section"><div class="container promo-grid">
+      <a class="promo-card" style="--promo:url('https://images.unsplash.com/photo-1456324504439-367cee3b3c32?auto=format&fit=crop&w=1000&q=82')" href="products.html?category=notebook"><div><h3>دفتر و برنامه‌ریزی</h3><p>برای کلاس، دانشگاه و کار روزمره</p></div></a>
+      <a class="promo-card" style="--promo:url('https://images.unsplash.com/photo-1615285427806-5cea6af60c0a?auto=format&fit=crop&w=1000&q=82')" href="products.html?category=art"><div><h3>ابزار هنری</h3><p>برای طراحی، رنگ و ایده‌های تازه</p></div></a>
+      <a class="promo-card" style="--promo:url('https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=1000&q=82')" href="products.html?category=writing"><div><h3>نوشت‌افزار روزمره</h3><p>قلم و ابزارهای کاربردی میز</p></div></a>
+    </div></section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div class="footer-brand"><a class="brand" href="index.html"><span class="brand-mark">آ</span><span>آریها</span></a><p>لوازم‌التحریر برای ایده‌هایی که ارزش نوشتن دارند.</p></div>
-      <div><h2>فروشگاه</h2><a href="products.html">همه محصولات</a><a href="products.html?category=notebook">دفتر و کاغذ</a><a href="products.html?category=writing">نوشت‌افزار</a></div>
-      <div><h2>آریها</h2><a href="about.html">درباره ما</a><a href="contact.html">تماس با ما</a><a href="contact.html#faq">سوالات متداول</a></div>
-      <div><h2>ارتباط</h2><a href="mailto:hello@example.com">hello@example.com</a><span>تهران، ایران</span><span>شنبه تا پنجشنبه، ۹ تا ۱۸</span></div>
-    </div>
-    <div class="container footer-bottom"><span>© <span data-year></span> آریها. همه حقوق محفوظ است.</span><span>ساخته‌شده برای نوشتنِ بیشتر.</span></div>
-  </footer>
-  <div class="toast" role="status" aria-live="polite" data-toast></div>
-  <script src="assets/js/products.js" defer></script>
-  <script src="assets/js/app.js" defer></script>
+  <footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a class="brand" href="index.html"><span class="brand-mark">آ</span><span>آریها</span></a><p>بازار آنلاین لوازم‌التحریر برای انتخاب سریع‌تر و ساده‌تر.</p></div><div><h2>خرید</h2><a href="products.html">همه محصولات</a><a href="products.html?category=notebook">دفتر و کاغذ</a><a href="products.html?category=writing">نوشت‌افزار</a></div><div><h2>آریها</h2><a href="about.html">درباره ما</a><a href="contact.html">تماس</a></div><div><h2>اطلاعات نمونه</h2><a href="mailto:hello@example.com">hello@example.com</a><span>تهران، ایران</span></div></div><div class="container footer-bottom"><span>© <span data-year></span> آریها.</span><span>نسخه آزمایشی با داده‌های فیک</span></div></footer>
+  <div class="toast" role="status" aria-live="polite" data-toast></div><script src="assets/js/products.js" defer></script><script src="assets/js/app.js" defer></script>
 </body>
 </html>
